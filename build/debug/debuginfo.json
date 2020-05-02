@@ -1,0 +1,16 @@
+[
+  {
+    "artifact": "frcJava (in project MissTakeButItsBroken)",
+    "target": "roborio",
+    "debugfile": "frcJava_roborio.debugconfig",
+    "project": "MissTakeButItsBroken",
+    "language": "java"
+  },
+  {
+    "artifact": "frcJava (in project MissTakeTheSequel)",
+    "target": "roborio",
+    "debugfile": "frcJava_roborio.debugconfig",
+    "project": "MissTakeTheSequel",
+    "language": "java"
+  }
+]

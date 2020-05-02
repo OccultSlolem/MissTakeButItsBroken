@@ -1,0 +1,9 @@
+[
+  {
+    "artifact": "frcJava (in project MissTakeTheSequel)",
+    "target": "roborio",
+    "debugfile": "frcJava_roborio.debugconfig",
+    "project": "MissTakeTheSequel",
+    "language": "java"
+  }
+]
