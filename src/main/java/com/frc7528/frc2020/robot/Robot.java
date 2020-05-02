@@ -59,7 +59,7 @@ public class Robot extends TimedRobot {
         //Right trigger goes forward
         //Left trigger goes backwards
 
-        if(m_gamepad.getTriggerAxis(GenericHID.Hand.kRight) > 0) { //If right trigger pressed down
+        if(m_gamepad.getTriggerAxis(GenericHID.Hand.kLeft) > 0) { //If right trigger pressed down
             m_drive.arcadeDrive(m_gamepad.getTriggerAxis(GenericHID.Hand.kLeft),m_gamepad.getX(GenericHID.Hand.kRight));
         } else if(m_gamepad.getTriggerAxis(GenericHID.Hand.kLeft) > 0) { //If left trigger pressed down
             m_drive.arcadeDrive(-m_gamepad.getTriggerAxis(GenericHID.Hand.kLeft),m_gamepad.getX(GenericHID.Hand.kLeft));
