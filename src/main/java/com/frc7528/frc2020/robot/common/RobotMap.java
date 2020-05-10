@@ -9,8 +9,8 @@ public class RobotMap {
     //Drivetrain
     public static WPI_VictorSPX m_rightAft = new WPI_VictorSPX(1);
     public static WPI_VictorSPX m_rightFront = new WPI_VictorSPX(2);
-    public static WPI_VictorSPX m_leftAft = new WPI_VictorSPX(3);
-    public static WPI_VictorSPX m_leftFront = new WPI_VictorSPX(4);
+    public static WPI_VictorSPX m_leftAft = new WPI_VictorSPX(4);
+    public static WPI_VictorSPX m_leftFront = new WPI_VictorSPX(3);
     public static DifferentialDrive m_drive;
 
     //Operator interface
